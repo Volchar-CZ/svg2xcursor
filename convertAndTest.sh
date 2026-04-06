@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # With a cursor
-./cursorX11Converter.sh alias.svg -x 4 -y 0 -i flatpak run org.inkscape.Inkscape
+./cursorX11Converter.sh alias.svg -x 4 -y 0 -i flatpak run org.inkscape.Inkscape # Repleace -i arguments if you have non-FP inkscape
 ./cursorX11Converter.sh arrow.svg -x 4 -y 0 -i flatpak run org.inkscape.Inkscape
 ./cursorX11Converter.sh context-menu.svg -x 4 -y 0 -i flatpak run org.inkscape.Inkscape
 ./cursorX11Converter.sh copy.svg -x 4 -y 0 -i flatpak run org.inkscape.Inkscape
@@ -24,7 +24,7 @@
 ./cursorX11Converter.sh right-arrow.svg -x 32 -y 16 -i flatpak run org.inkscape.Inkscape
 ./cursorX11Converter.sh right_side.svg -x 32 -y 16 -i flatpak run org.inkscape.Inkscape
 ./cursorX11Converter.sh up-arrow.svg -x 16 -y 0 -i flatpak run org.inkscape.Inkscape
-./cursorX11Converter.sh top-side.svg -x 16 -y 0 -i flatpak run org.inkscape.Inkscape
+./cursorX11Converter.sh top_side.svg -x 16 -y 0 -i flatpak run org.inkscape.Inkscape
 
 #Size/scroll
 ./cursorX11Converter.sh all-scroll.svg -x 16 -y 16 -i flatpak run org.inkscape.Inkscape
